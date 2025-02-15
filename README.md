@@ -77,7 +77,7 @@ npm run dev
 ## Live Demo
 
 [Glasses Store](#)  
-_Please add the link to your live store here._
+_https://glasses-store-sooty.vercel.app/_
 
 ---
 
