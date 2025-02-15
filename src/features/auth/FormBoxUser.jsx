@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 function FormBoxUser({ children, type }) {
   return (
-    <div className="h-[33rem] w-[33rem] flex-col rounded-md border border-gray-300 bg-slate-50 p-10 shadow-md">
+    <div className="w-full min-w-96 max-w-[560px] flex-col rounded-md border border-gray-300 bg-slate-50 p-10 shadow-md">
       <p className="monoton-regular cursor-pointer pb-7 pt-1 text-center text-3xl hover:text-red-500">
         EYESOME
       </p>

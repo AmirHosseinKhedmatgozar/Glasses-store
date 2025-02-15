@@ -24,9 +24,9 @@ function LoginUser() {
   }
 
   return (
-    <div className="flex h-[100vh] w-[100vw]">
-      <div className="basis-1/2 bg-[url('/public/photo/bannerHero.jpg')] bg-cover bg-center bg-no-repeat"></div>
-      <div className="flex basis-1/2 items-center justify-center bg-[--color-body-secoundary]">
+    <div className="h-[100vh] w-[100vw] lg:flex">
+      <div className="bg-[url('/public/photo/bannerHero.jpg')] bg-cover bg-center bg-no-repeat lg:block lg:basis-1/2"></div>
+      <div className="m-4 flex items-center justify-center bg-[--color-body-secoundary] lg:basis-1/2">
         <FormBoxUser type="Login">
           <form onSubmit={handleSubmit}>
             <BoxInpute
