@@ -11,6 +11,7 @@ An online glasses store that allows users to create accounts, place orders, and 
 - Wishlist management for each user
 - Product categorization
 - Address management for order delivery
+- Responsive design
 
 ---
 
