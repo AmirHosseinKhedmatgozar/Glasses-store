@@ -23,7 +23,7 @@ function ShopingCarts() {
   }
 
   return (
-    <div className="mt-10">
+    <div className="mb-5 mt-20 md:mt-10">
       <span className="text-2xl">Bag({shoppingListUser?.length})</span>
       <div className="flex flex-col gap-16 md:flex-row">
         <div className="grid grid-cols-1 gap-5">
