@@ -11,7 +11,7 @@ function Logo() {
         className="h-12 w-12 cursor-pointer overflow-hidden rounded-full border-2 border-gray-400 bg-[var(--color-yellow-primary)]"
       >
         <img
-          src="../public/photo/logo/defaultUser.8fe8d848d6ce42e30435.png"
+          src="/photo/logo/defaultUser.8fe8d848d6ce42e30435.png"
           alt="logo"
         />
       </div>
