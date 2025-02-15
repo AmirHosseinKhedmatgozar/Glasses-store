@@ -74,7 +74,7 @@ function PruductMenu() {
         <img
           src="/photo/bannerHero.jpg"
           alt="banner"
-          className="mt-4 rounded-2xl"
+          className="mt-14 rounded-2xl md:mt-4"
         />
         <div className="flex items-center justify-between">
           <h3 className="text-xl sm:text-3xl">Glasses for you</h3>
