@@ -1,7 +1,7 @@
 import Footer from "../features/home/Footer";
 import Main from "../features/home/Main";
 import Header from "../features/home/Header";
-import { ScrollProvider } from "../context/scrollContext";
+import { ScrollProvider } from "../context/ScrollContext";
 
 function Home() {
   return (

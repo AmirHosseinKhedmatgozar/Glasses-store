@@ -1,4 +1,4 @@
-import { useScroll } from "../../context/scrollContext";
+import { useScroll } from "../../context/ScrollContext";
 import LoadingPage from "../../UI/LoadingPage";
 import CategoriesItem from "./CategoriesItem";
 import { useGetCategories } from "./useGetCategories";

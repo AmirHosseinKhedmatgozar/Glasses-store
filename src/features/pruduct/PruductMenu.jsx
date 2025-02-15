@@ -72,7 +72,7 @@ function PruductMenu() {
     <>
       <div className="flex flex-col gap-6">
         <img
-          src="../../public/photo/bannerHero.jpg"
+          src="/photo/bannerHero.jpg"
           alt="banner"
           className="mt-4 rounded-2xl"
         />

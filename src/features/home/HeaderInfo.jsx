@@ -1,6 +1,6 @@
 import { LiaSearchPlusSolid } from "react-icons/lia";
 import { useNavigate } from "react-router-dom";
-import { useScroll } from "../../context/scrollContext";
+import { useScroll } from "../../context/ScrollContext";
 
 function HeaderInfo() {
   const { handleScroll } = useScroll();

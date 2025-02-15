@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useRef } from "react";
-const scrollContext = createContext();
-
+const ScrollContext = createContext();
 function ScrollProvider({ children }) {
   const ref = useRef(null);
   function handleScroll() {
@@ -11,14 +10,14 @@ function ScrollProvider({ children }) {
   }
 
   return (
-    <scrollContext.Provider value={{ ref, handleScroll }}>
+    <ScrollContext.Provider value={{ ref, handleScroll }}>
       {children}
-    </scrollContext.Provider>
+    </ScrollContext.Provider>
   );
 }
 
 function useScroll() {
-  const context = useContext(scrollContext);
+  const context = useContext(ScrollContext);
 
   return context;
 }
