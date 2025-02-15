@@ -5,7 +5,7 @@ export const discountPrice = function (price) {
 
 export const capitalizeFirstAndAfterSpaces = function (str) {
   return str
-    .split("")
+    ?.split("")
     .map((char, index) => {
       if (index === 0 || str[index - 1] === " ") {
         return char.toUpperCase();
