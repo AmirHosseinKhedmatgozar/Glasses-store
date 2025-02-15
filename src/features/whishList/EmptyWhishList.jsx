@@ -1,7 +1,7 @@
 function EmptyWhishList() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <img src="/public/photo/whishList/empty-wish..gif" />
+      <img src="/photo/whishList/empty-wish..gif" className="mt-14" />
       <span className="mb-2 text-3xl font-extrabold text-gray-600">
         NOTHING TO SHOW
       </span>

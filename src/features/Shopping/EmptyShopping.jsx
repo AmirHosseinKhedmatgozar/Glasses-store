@@ -5,7 +5,7 @@ function EmptyShopping() {
   return (
     <div className="mt-14 flex flex-col items-center justify-center">
       <img
-        src="/public/photo/shopping/shoppingImage.png"
+        src="/photo/shopping/shoppingImage.png"
         alt="Empty Shopping"
         width={"250px"}
         height={"250px"}
