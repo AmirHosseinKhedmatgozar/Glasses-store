@@ -1,12 +1,93 @@
-<<<<<<< HEAD
-# React + Vite
+# Glasses Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An online glasses store that allows users to create accounts, place orders, and manage their wishlist. This project is built with **React** and **Supabase**, featuring product categorization and various functionalities for order placement and address management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Glasses-Store
->>>>>>> cd7aec04eda01fc6ea8a7119c56ff3fd1aa66bf5
+## Features
+
+- User registration and authentication
+- Manage orders and view order history
+- Wishlist management for each user
+- Product categorization
+- Address management for order delivery
+
+---
+
+## Prerequisites
+
+Make sure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org)
+- [npm](https://www.npmjs.com)
+
+---
+
+## Installation & Setup
+
+To install and run this project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/username/glasses-store.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd glasses-store
+```
+
+3. Install dependencies using npm:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Technologies Used
+
+- **React** - For building the user interface
+- **React Router Dom** - For routing
+- **React Hook Form** - For managing forms
+- **React Query** - For data fetching and state management
+- **Supabase** - For storing user data and orders
+- **Tailwind CSS** and **DaisyUI** - For UI design
+- **React Icons** - For icons
+- **React Hot Toast** - For notifications
+- **Vite** - For fast development and build
+- **ESLint** and **Prettier** - For code quality and consistency
+
+---
+
+## Screenshot
+
+![project-overview](/public/project-overview.png)
+
+---
+
+## Live Demo
+
+[Glasses Store](#)  
+_Please add the link to your live store here._
+
+---
+
+## Author
+
+[AmirHosseinKhedmatgozar](https://github.com/AmirHosseinKhedmatgozar)  
+[telegram](https://t.me/amirkh21)
+
+---
+
+## License
+
+This project is licensed under the MIT License.

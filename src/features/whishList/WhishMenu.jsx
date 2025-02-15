@@ -9,7 +9,7 @@ function WhishMenu() {
   if (loadingWhishListUser) return <LoadingPage />;
   if (whishListUser?.length === 0) return <EmptyWhishList />;
   return (
-    <div className="pt-5">
+    <div className="mt-14 pt-5">
       <h1 className="text-2xl">Whishlist</h1>
       <ItemContainer>
         {whishListUser?.map((item) => (

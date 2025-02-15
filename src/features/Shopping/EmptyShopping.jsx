@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 function EmptyShopping() {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="mt-14 flex flex-col items-center justify-center">
       <img
-        src="../../../public/photo/shopping/shoppingImage.png"
+        src="/public/photo/shopping/shoppingImage.png"
         alt="Empty Shopping"
         width={"250px"}
         height={"250px"}
