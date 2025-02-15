@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-body: #f9fafb;
+  --color-body-secoundary: #ffffffed;
+  --dark: #d6ddfa;
+  --color-yellow-primary: #eab308;
+  --color-yellow-secoundary: #d4a108;
+  --color-yellow-shadow: #f3f4eba4;
+  --color-yellow-light: #ffd700;
+  --color-yellow-light-primary: #eeedea;
+  --color-price: #ff7706;
+  --color-green-primary: #d9f99d;
+  --color-green-secoundary: #bef264;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+    @apply dark:bg-[var(--dark)];
+    @apply font-sans;
+    @apply m-0;
+    @apply p-0;
+  }
+  button {
+    @apply text-black;
+    @apply font-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  span {
+    font-family: "Josefin Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  p {
+    font-family: josefin;
+  }
+  label {
+    font-family: "Josefin Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+@layer base {
+  html,
+  body {
+    @apply m-0 h-screen p-0;
+  }
+}
+
+@layer components {
+  .input {
+    @apply rounded-full border border-stone-200 px-4 py-2 text-sm outline-none transition-all duration-300 focus:outline-none focus:ring focus:ring-yellow-400 md:px-6 md:py-3;
+  }
+  .loader {
+    width: 45px;
+    aspect-ratio: 0.75;
+    --c: no-repeat linear-gradient(theme(colors.stone.800) 0 0);
+    background:
+      var(--c) 0% 50%,
+      var(--c) 50% 50%,
+      var(--c) 100% 50%;
+    background-size: 20% 50%;
+    animation: loading 1s infinite linear;
+  }
+
+  .lexend-mega {
+    font-family: "Lexend Mega", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .josefin-sans-Medium {
+    font-family: "Josefin Sans", serif;
+    font-size: 96px;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .josefin {
+    font-family: "Josefin Sans", serif;
+  }
+  .roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  /* for headings */
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .monoton-regular {
+    font-family: "Monoton", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+/* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
+
+@keyframes loading {
+  20% {
+    background-position:
+      0% 0%,
+      50% 50%,
+      100% 50%;
+  }
+  40% {
+    background-position:
+      0% 100%,
+      50% 0%,
+      100% 50%;
+  }
+  60% {
+    background-position:
+      0% 50%,
+      50% 100%,
+      100% 0%;
+  }
+  80% {
+    background-position:
+      0% 50%,
+      50% 50%,
+      100% 100%;
+  }
+}
