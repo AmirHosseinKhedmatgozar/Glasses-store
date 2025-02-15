@@ -1,7 +1,7 @@
-import Info from "./info";
 import Logo from "./Logo";
 import SearchBox from "../features/search/SearchBox";
 import HamburgerMenu from "./HamburgerMenu";
+import Info from "./Info";
 
 function Navbar() {
   return (
